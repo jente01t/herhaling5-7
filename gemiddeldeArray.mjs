@@ -14,7 +14,7 @@ function gemiddeldeArray (getallen) {
     for (let i = 0; i < getallen.length; i++) {
         gemiddelde += getallen[i];
     }
-    gemiddelde /= 5;
+    gemiddelde = gemiddelde / getallen.length;
     return gemiddelde;
 }
 
